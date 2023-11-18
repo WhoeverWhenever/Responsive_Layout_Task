@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Layout">
+    <meta name="author" content="Bohdan Kaluha">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header end-block" id="header">
+            <div class="header__logo">
+                <picture class="header__logo-image">
+                    <img src="https://placehold.co/100x100/282829/34eba1?text=1.1\nLogo" alt="logo" loading="lazy"
+                        width="100" height="100">
+                </picture>
+            </div>
+            <div class="header__title">
+                <h1 class="header__company">1.2 Company Name</h1>
+            </div>
+        </header>
+        <main class="main">
+            <section class="images end-block">
+                <div class="images__column">
+                    <picture class="images__item ibg">
+                        <img src="https://placehold.co/1000x800/110752/fafa8e?text=2.1\nImage_1" alt="image_1"
+                            loading="lazy" width="300" height="300">
+                    </picture>
+                    <picture class="images__item ibg">
+                        <img src="https://placehold.co/800x1000/110752/fafa8e?text=2.2\nImage_2" alt="image_2"
+                            loading="lazy" width="300" height="300">
+                    </picture>
+                </div>
+                <div class="images__column">
+                    <picture class="images__item ibg">
+                        <img src="https://placehold.co/600x400/03291a/f57ff3?text=2.3\nImage_3" alt="image_3"
+                            loading="lazy" width="300" height="300">
+                    </picture>
+                    <picture class="images__item ibg">
+                        <img src="https://placehold.co/400x600/03291a/f57ff3?text=2.4\nImage_4" alt="image_4"
+                            loading="lazy" width="300" height="300">
+                    </picture>
+                </div>
+            </section>
+            <section class="projects end-block" id="projects">
+                <a href="" class="projects__item">
+                    <h3 class="projects__title">3.1 Project_1</h3>
+                    <p class="projects__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                        impedit unde temporibus? Quis
+                        rem possimus reprehenderit non, veritatis magnam blanditiis accusantium, nisi labore, velit
+                        nesciunt?</p>
+                </a>
+                <a href="" class="projects__item">
+                    <h3 class="projects__title">3.2 Project_2</h3>
+                    <p class="projects__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum non
+                        maiores quibusdam
+                        laudantium, nihil consequuntur ipsum sunt veniam. Laudantium, sapiente eum sequi molestiae
+                        corrupti voluptatem aliquid voluptas corporis voluptatibus mollitia maxime ab ea eligendi sit.
+                    </p>
+                </a>
+            </section>
+            <div class="info-navigation end-block">
+                <section class="company" id="company">
+                    <article class="company__item service">
+                        <h2 class="service__title">4.1 Our services</h2>
+                        <p class="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                            aliquam explicabo minima
+                            amet aperiam voluptatum possimus debitis placeat hic ea repudiandae excepturi cumque
+                            expedita doloribus labore ratione ducimus vero maxime. Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Sapiente, quod dolore eveniet nemo obcaecati cum. Eaque sint
+                            repellat suscipit fugiat, totam architecto natus ratione. Soluta corporis voluptate dolores
+                            cumque neque!</p>
+                        <p class="service__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat porro,
+                            dicta laborum quo
+                            placeat libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque libero
+                            voluptatibus magnam tenetur quam in!</p>
+                    </article>
+                    <article class="company__item team">
+                        <h2 class="team__title">4.2 Our specialists</h2>
+                        <p class="team__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod assumenda
+                            voluptates cumque,
+                            voluptatem ut quia doloremque qui tenetur debitis laudantium.</p>
+                        <p class="team__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod assumenda
+                            voluptates cumque,
+                            voluptatem ut quia doloremque qui tenetur debitis laudantium.</p>
+                        <p class="team__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod assumenda
+                            voluptates cumque,
+                            voluptatem ut quia doloremque qui tenetur debitis laudantium.</p>
+                    </article>
+                    <article class="company__item work-process">
+                        <h2 class="work-process__title">4.3 Work process stages</h2>
+                        <ul class="work-process__list">
+                            <li>Stage 1. Lorem ipsum dolor sit amet.</li>
+                            <li>Stage 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus!
+                            </li>
+                            <li>Stage 3. Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                            <li>Stage 4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium quos
+                                qui!</li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="learn-more" id="learn-more">
+                    <a class="learn-more__link" href="">5 Learn more about us</a>
+                </section>
+                <aside class="navigation">
+                    <nav class="navigation__menu">
+                        <p class="navigation__text">6</p>
+                        <ul class="navigation__list">
+                            <li><a class="navigation__link" href="#header">Home</a></li>
+                            <li><a class="navigation__link" href="#projects">What we do</a></li>
+                            <li><a class="navigation__link" href="#company">Our company</a></li>
+                            <li><a class="navigation__link" href="#footer">Contact us</a></li>
+                            <li><a class="navigation__link" href="#learn-more">More?</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__contacts">
+                <p class="footer__contacts-text">7 Contact us:</p>
+                <a href="" class="footer__icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="footer__icon" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="" class="footer__icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="" class="footer__icon" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer__copyright">7 © Bohdan Kaluha for TechMagic</div>
+        </footer>
+    </div>
+</body>
+
+</html>
